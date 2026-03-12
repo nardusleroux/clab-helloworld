@@ -13,4 +13,4 @@ topology:
       exec:
         - ip addr add 10.0.0.2/24 dev eth1
   links:
-    - endpoints: [host1:client1, client2:eth1]
+    - endpoints: [client1:eth1, client2:eth1]
